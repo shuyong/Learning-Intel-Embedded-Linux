@@ -50,6 +50,33 @@ default Clear-linux-native-5.0.8-734
 
 [Multi-boot Clear Linux* OS with other operating systems](https://clearlinux.org/documentation/clear-linux/tutorials/multi-boot)
 
+## 安装软件包
+安装时记得设置：
+* 用户名和密码。设置成系统用户。
+* 设置主机名。
+* 选择增加的软件包。
+
+增加基础软件包：
+* network-basic
+* user-basic
+
+图形界面：
+* desktop 
+* desktop-autostar 
+
+图形界面软件包：
+* desktop-app 
+* desktop-app-extras 
+
+一般开发用的软件包：
+* dev-utils 
+* editors 
+
+开发 Clear Linux 系统所用的软件包，包含 rpm 系统，各种头文件和库文件：
+* os-clr-on-clr
+* os-clr-on-clr-dev
+
+
 ## GUI system
 使用的是 Xorg。
 没有使用 intel driver。而是使用 modesetting。也许速度更快一些吧。
