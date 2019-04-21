@@ -97,7 +97,7 @@ loading driver
 * 测试 GPIO，OK。
 
 [微雪 10 DOF IMU Sensor (D)](http://www.waveshare.net/wiki/10_DOF_IMU_Sensor_(D))
-* gpio 在 Intel 平台上的接口是: /dev/i2c-0
+* gpio 在 Minnow Board 平台上的接口是: /dev/i2c-0
 * 代码写得真烂。要用还得大改。
 
 ## MRAA & UPM
@@ -113,3 +113,4 @@ loading driver
 1. [SerialConsoleHowto](https://help.ubuntu.com/community/SerialConsoleHowto)
 1. [Installing Automotive Grade Linux](http://docs.automotivelinux.org/docs/en/master/getting_started/reference/getting-started/machines/intel.html)
 1. [Installing Yocto 2.4.1 Poky](https://minnowboard.org/tutorials/installing-yocto-poky)
+1. [UPM sensor library](http://upm.mraa.io/)
